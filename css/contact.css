@@ -59,9 +59,7 @@ body {
   .nav-text{
     text-align: end;
 }
-.container-fluid{
-    height: 70px;
-}
+
 
 .head{
     display: flex;
@@ -145,16 +143,6 @@ body {
 }
 
 
-  /* .navbar {
-    background-color: #ffd700; /* Yellow background */
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    display: flex; /* Make navbar items horizontal */
-    justify-content: flex-start; /* Align items to the left */
-    padding: 10px; /* Add padding to navbar */
-  }
-
-  .navbar-brand,
   .nav-link {
     color: #000; /* Black text */
     text-decoration: none; /* Remove underline from links */
@@ -168,4 +156,5 @@ body {
 
   .navbar-nav .nav-link:hover {
     background-color: #ffcc00; /* Yellow background on hover */
-  } */
+  } 
+  
