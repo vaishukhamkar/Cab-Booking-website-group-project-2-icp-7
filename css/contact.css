@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:white;
+    color: #000;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 0, 0.5);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffd700;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  button:hover {
+    background-color: #ffcc00;
+  }
+  .nav-text{
+    text-align: end;
+}
+.container-fluid{
+    height: 70px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0;
+}
+.head-right{
+    text-align: center;
+    padding: 30px;
+    height: 300px;
+    width: 500px;
+    border-radius: 0 20px 20px 20px;
+}
+.head-left{
+    display: block;
+    margin: 0 auto;
+}
+.head-img{
+    height: 300px;
+    border-radius: 20px;
+}
+.car-btn{
+    text-align: center;
+}
+.btn-car{
+    border: 1px solid #ffc107;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+    height: 40px;
+    margin: 10px 50px;
+    margin-top: 50px;
+}
+.btn-car:hover{
+    background-color: #ffc107;
+    color: white;
+    transition: 0.5s;
+}
+.car-img{
+    display: block;
+    margin: 30px auto;
+    height: 300px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card{
+    width: 300px;
+    padding: 15px;
+    text-align: center;
+    margin: 10px;
+}
+.card-icon{
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+.card-head{
+    font-weight: bold;
+    margin-top: 10px;
+}
+.section{
+    margin-top: 100px;
+}
+.section-content{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+    font-size: 20px;
+}
+.ph-img{
+    height: 450px;
+    margin-right: 300px;
+}
+.steps-icon{
+    height: 40px;
+}
+
+
+  /* .navbar {
+    background-color: #ffd700; /* Yellow background */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex; /* Make navbar items horizontal */
+    justify-content: flex-start; /* Align items to the left */
+    padding: 10px; /* Add padding to navbar */
+  }
+
+  .navbar-brand,
+  .nav-link {
+    color: #000; /* Black text */
+    text-decoration: none; /* Remove underline from links */
+    margin-right: 20px; /* Add some space between items */
+  }
+
+  .navbar-nav .nav-link {
+    padding: 10px 15px; /* Padding for navbar links */
+    border-radius: 5px; /* Rounded corners for navbar links */
+  }
+
+  .navbar-nav .nav-link:hover {
+    background-color: #ffcc00; /* Yellow background on hover */
+  } */
